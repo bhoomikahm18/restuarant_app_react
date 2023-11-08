@@ -26,9 +26,9 @@ let foodData = [
 
 let drinkData = [
     { drinkName: 'Virgin Mojito', price: 'Rs.250/-', catogory: 'mocktail' },
-    { drinkName: 'Pinacolada', price: 'Rs.350/-', catogory: 'moctail' },
-    { drinkName: 'Margarita', price: 'Rs.550/-', catogory: 'coctail' },
-    { drinkName: 'Moscow Mule', price: 'Rs.650/-', catogory: 'conoctail' }
+    { drinkName: 'Pinacolada', price: 'Rs.350/-', catogory: 'mocktail' },
+    { drinkName: 'Margarita', price: 'Rs.550/-', catogory: 'cocktail' },
+    { drinkName: 'Moscow Mule', price: 'Rs.650/-', catogory: 'cocktail' }
 ]
 
 let data = [foodData, drinkData];

@@ -61,7 +61,7 @@ function Restuarant(props) {
                         (<div className='drink-container'>
                             {
                                 menuData.drinkData.map(item => {
-                                    return <Card className='drink-item' style={{ width: '18rem' }} key={item.drinkName}>
+                                    return <Card className='drink-item' style={{ "width": '18rem' }} key={item.drinkName}>
                                         <Card.Img variant="top" src={'images/drink/' + item.drinkName + '.jpg'} />
                                         <Card.Body className={(item.catogory == 'mocktail') ? 'mocktail' : 'cocktail'}>
                                             <Card.Title>{item.drinkName} : {item.price} </Card.Title>
