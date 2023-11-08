@@ -1,0 +1,25 @@
+.container {
+    background: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.navbar {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    margin-left: 30px;
+}
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        padding: 0px;
+    }
+}
